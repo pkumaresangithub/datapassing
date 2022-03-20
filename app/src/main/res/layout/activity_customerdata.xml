@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Customerdata">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Details"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:padding="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:id="@+id/txt_name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Building: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:id="@+id/txt_building"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="city: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:id="@+id/txt_city"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="District: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:id="@+id/txt_district"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="State: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:id="@+id/txt_state"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="pincode: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:id="@+id/txt_pincode"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Country: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:id="@+id/txt_country"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Contact: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:id="@+id/txt_contact"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:id="@+id/txt_email"
+        />
+
+
+</LinearLayout>
